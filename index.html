@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+   
+
+</head>
+<body>
+    <header>
+        <!-- started navber -->
+        <nav class="mb-4">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li ><a>home</a></li>
+                      <li> <a>about</a> </li>
+                      <li><a >pages</a></li>
+                      <li><a >blog</a></li>
+                      <li><a>contact</a></li>
+                    </ul>
+                  </div>
+                  <h1>hockey <span class="text-red-400">'</span>s</h1>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="text-orange-500"><a>home</a></li>
+                    <li> <a>about</a> </li>
+                    <li><a >pages</a></li>
+                    <li><a >blog</a></li>
+                    <li><a>contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end lg:flex gap-4 ">
+                    <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
+                  <a class="btn bg-red-500"> get ticket </a>
+                </div>
+              </div> 
+        </nav>
+        <!-- navber end  -->
+        <!-- banner section -->
+          <section>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="image/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="image/png2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>  
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="image\png3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </section> 
+       
+    </header>
+   
+        <!-- <section class="divide-y divide-dashed">
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+    </section> -->
+        
+    <!-- end header section -->
+    <main>
+        <!-- professional hockey's club -->
+        <div class="divide-y divide-dashed">
+          <div class="text-center">
+            <h3>professional hockey's club</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, optio sed! Corrupti quasi, pariatur tenetur nostrum suscipit facilis nemo! Quas?</p>
+        </div>
+        <!-- percentence -->
+        <div class="lg:flex">
+          <div class="flex flex-col justify-center justify-items-center"> 
+               <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%</div>
+              <div>
+                  <h3>player facility</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae provident, placeat atque doloribus recusandae iure? </p>
+              </div>
+         </div>
+         <div class="flex flex-col justify-center justify-items-center">
+                  <div class="radial-progress text-primary" style="--value:85;" role="progressbar">85%</div>
+              <div>
+                  <h3>experience coach</h3>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum quas amet velit debitis error.</p>
+              </div>
+         </div>
+          <div  class="flex flex-col justify-center justify-items-center">
+              <div class="radial-progress text-primary" style="--value:90;" role="progressbar">90%</div>
+          <div>
+              <h3>senior player</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsam officiis, facere voluptatibus quibusdam obcaecati.</p>
+          </div>
+         </div>
+         <div  class="flex flex-col justify-center justify-items-center">
+          <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80% 
+          </div> 
+          <div>
+              <h3>training ground</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio natus, commodi quibusdam voluptatum vero eveniet.</p>
+          </div>
+         </div>
+      </div>
+        </div>
+        
+        
+        
+        <!-- programe section -->
+        <section>
+            <div class="text-center">
+                <h3>programe sections</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sit vitae distinctio labore, nulla dignissimos?</p>
+            </div>
+            <div class="lg:grid  grid-cols-2 grid-rows-2 gap-4">
+                <div class="card w-96 bg-base-100 shadow-xl image-full col-span-1 w-full">
+                    <figure><img src="image/2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">junior programe</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn">Button</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card w-96 bg-base-100 shadow-xl image-full  col-span-1 w-full">
+                    <figure><img src="image/3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">teenager programer</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn">Button</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card w-96 bg-base-100 shadow-xl image-full col-span-2 w-full">
+                    <figure><img src="image/4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">professional programer</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn">Button</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
+        </section>
+     <!--our new products  -->
+     <section>
+         <div class="text-center">
+            <h3>our new products</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, alias. Quod, minus ab. Est, natus.</p>
+         </div>
+         <!-- grid for layout -->
+         <div class="lg:grid grid-cols-2 gap-4">
+            <div class="col-span-1">
+                <div class="card lg:card-side bg-base-100 shadow-xl gap-4 ">
+                    <figure><img src="image/5.png" alt="Album"/></figure>
+                    <figure class="flex-col">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div>5.0</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-eye"></i></div>
+                                <div>20</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-heart"></i></div>
+                                <div>200</div>
+                            </div>  
+                        </div>
+                        <!-- heading and paragraph  -->
+                        <div>
+                            <h3>world cup flags football</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusamus nisi architecto cumque similique! </p>
+                        </div>
+                        <!-- cart shopping-->
+                        <div class="flex gap-2">
+                            <div>price-$22.00</div>
+                            <div class="flex justify-center justify-items-center">
+                                <div> <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div><p>delivery fee:free</p></div>    
+                            </div>
+                        </div>
+                    </figure> 
+                </div>
+                   
+             </div>
+             <div class="col-span-1">
+                    <div class="card lg:card-side bg-base-100 shadow-xl gap-4 ">
+                        <figure><img src="image/6.png" alt="Album"/></figure>
+                        <figure class="flex-col">
+                            <div class="flex gap-4">
+                                <div class="flex gap-2">
+                                    <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    </div>
+                                    <div>5.0</div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <div><i class="fa-regular fa-eye"></i></div>
+                                    <div>20</div>
+                                </div>
+                                <div class="flex gap-2">
+                                    <div><i class="fa-regular fa-heart"></i></div>
+                                    <div>200</div>
+                                </div>  
+                            </div>
+                            <!-- heading and paragraph  -->
+                            <div>
+                                <h3>world cup flags football</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusamus nisi architecto cumque similique! </p>
+                            </div>
+                            <!-- cart shopping-->
+                            <div class="flex gap-2">
+                                <div>price-$22.00</div>
+                                <div class="flex justify-center justify-items-center">
+                                    <div> <i class="fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                    <div><p>delivery fee:free</p></div>    
+                                </div>
+                            </div>
+                        </figure> 
+                    </div>
+                       
+             </div>
+             <div class="col-span-1">
+                <div class="card lg:card-side bg-base-100 shadow-xl gap-4 ">
+                    <figure><img src="image/7.png" alt="Album"/></figure>
+                    <figure class="flex-col">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div>5.0</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-eye"></i></div>
+                                <div>20</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-heart"></i></div>
+                                <div>200</div>
+                            </div>  
+                        </div>
+                        <!-- heading and paragraph  -->
+                        <div>
+                            <h3>cap for hockeys</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusamus nisi architecto cumque similique! </p>
+                        </div>
+                        <!-- cart shopping-->
+                        <div class="flex gap-2">
+                            <div>price-$22.00</div>
+                            <div class="flex justify-center justify-items-center">
+                                <div> <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div><p>delivery fee:free</p></div>    
+                            </div>
+                        </div>
+                    </figure> 
+                </div>
+                   
+             </div>
+             <div class="col-span-1">
+                <div class="card lg:card-side bg-base-100 shadow-xl gap-4 ">
+                    <figure><img src="image/8.png" alt="Album"/></figure>
+                    <figure class="flex-col">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div>5.0</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-eye"></i></div>
+                                <div>20</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-heart"></i></div>
+                                <div>200</div>
+                            </div>  
+                        </div>
+                        <!-- heading and paragraph  -->
+                        <div>
+                            <h3>world cup flags football</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusamus nisi architecto cumque similique! </p>
+                        </div>
+                        <!-- cart shopping-->
+                        <div class="flex gap-2">
+                            <div>price-$22.00</div>
+                            <div class="flex justify-center justify-items-center">
+                                <div> <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div><p>delivery fee:free</p></div>    
+                            </div>
+                        </div>
+                    </figure> 
+                </div>
+                   
+             </div>
+             <div class="col-span-1">
+                <div class="card lg:card-side bg-base-100 shadow-xl gap-4 ">
+                    <figure><img src="image/9.png" alt="Album"/></figure>
+                    <figure class="flex-col">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div>5.0</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-eye"></i></div>
+                                <div>20</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-heart"></i></div>
+                                <div>200</div>
+                            </div>  
+                        </div>
+                        <!-- heading and paragraph  -->
+                        <div>
+                            <h3>world cup flags football</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusamus nisi architecto cumque similique! </p>
+                        </div>
+                        <!-- cart shopping-->
+                        <div class="flex gap-2">
+                            <div>price-$22.00</div>
+                            <div class="flex justify-center justify-items-center">
+                                <div> <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div><p>delivery fee:free</p></div>    
+                            </div>
+                        </div>
+                    </figure> 
+                </div>
+                   
+             </div>  
+             <div class="col-span-1">
+                <div class="card lg:card-side bg-base-100 shadow-xl gap-4 ">
+                    <figure><img src="image/10.png" alt="Album"/></figure>
+                    <figure class="flex-col">
+                        <div class="flex gap-4">
+                            <div class="flex gap-2">
+                                <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div>5.0</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-eye"></i></div>
+                                <div>20</div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div><i class="fa-regular fa-heart"></i></div>
+                                <div>200</div>
+                            </div>  
+                        </div>
+                        <!-- heading and paragraph  -->
+                        <div>
+                            <h3>world cup flags football</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusamus nisi architecto cumque similique! </p>
+                        </div>
+                        <!-- cart shopping-->
+                        <div class="flex gap-2">
+                            <div>price-$22.00</div>
+                            <div class="flex justify-center justify-items-center">
+                                <div> <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div><p>delivery fee:free</p></div>    
+                            </div>
+                        </div>
+                    </figure> 
+                </div>
+                   
+             </div> 
+         </div>      
+    </section>
+    <!-- clients questions -->
+    <section>
+            <div class="text-center" >
+                <h3>clicents questions</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut recusandae totam vitae repellendus sit sint.</p>
+            </div>
+            <div class="">
+                <div class="card lg:card-side bg-base-100 shadow-xl gap-4 w-full ">
+                    <figure><img src="image/11.png" alt="Album"/></figure>
+                    <figure>
+                        <div class="flex flex-col">
+                            <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+                                <div class="collapse-title text-xl font-medium">
+                                  <h3>our requipment</h3>
+                                 
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores quaerat ex magnam, vero error.</p>
+                                </div>
+                            </div>
+                              <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+                                <div class="collapse-title text-xl font-medium">
+                                  <h3>hockey traning</h3>
+                                 
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores quaerat ex magnam, vero error.</p>
+                                </div>
+                              </div>
+                              <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+                                <div class="collapse-title text-xl font-medium">
+                                  <h3>private lessons</h3>
+                                 
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores quaerat ex magnam, vero error.</p>
+                                </div>
+                              </div>
+                              <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+                                <div class="collapse-title text-xl font-medium">
+                                  <h3>ski turing</h3>
+                                 
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores quaerat ex magnam, vero error.</p>
+                                </div>
+                              </div>
+                              <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+                                <div class="collapse-title text-xl font-medium">
+                                  <h3>booking</h3>
+                                 
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores quaerat ex magnam, vero error.</p>
+                                </div>
+                              </div>
+                              <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
+                                <div class="collapse-title text-xl font-medium">
+                                  <h3>pricings</h3>
+                                 
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis asperiores quaerat ex magnam, vero error.</p>
+                                </div>
+                              </div>
+                        </div>
+                   
+                    </figure>
+                </div>
+                   
+             </div>
+    </section>
+    <!-- get in touch -->
+       <section>
+        <div class="text-center">
+          <h3>get in touch</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat optio voluptas consequatur ipsum pariatur saepe.</p>
+        </div>
+        <!-- touch main container -->
+        <div class="flex flex-col lg:flex-row justify-between gap-4">
+           <!-- get in touch container -->
+          <div class="flex flex-col gap-4">
+            <div>
+              <img src="image/Group 1171275317.png" alt="">
+              <p>phone number</p>
+              <h3>(+62) 123-321-543</h3>
+            </div>
+            <div>
+              <img src="image/Group 1171275318.png" alt="">
+              <p>Email</p>
+              <h3>hockeys@support.com</h3>
+            </div>
+            <div><img src="image/Group 1171275321.png" alt="">
+            <p>Location</p>
+            <h3>152/1Mohakhali wireless gate</h3>
+          </div>
+          </div>
+          <!-- inpute type -->
+          <div class="flex flex-col gap-4">
+              <div class="flex flex-col lg:flex-row gap-4">
+                <div>
+                  <h3>subject</h3>
+                  <input type="text" placeholder="enter your subject" class="input input-bordered input-lg w-full max-w-xs" />
+                </div>
+                <div>
+                  <h3>phone number</h3>
+                  <input type="text" placeholder="enter your phone number" class="input input-bordered input-lg w-full max-w-xs" />
+                </div>
+              </div>
+              <div >
+                <h3>message</h3>
+                <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
+              </div>
+              <div>
+                <button class="btn btn-block">send message</button>
+              </div>
+          </div>
+        </div>
+       
+       </section>
+       <!-- social media section -->
+       <section>
+        <div class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+          <h3>social media</h3>
+          <nav>
+            <div class="grid grid-flow-col gap-4">
+              <a><i class="fa-brands fa-twitter"></i></a>
+              <a><i class="fa-brands fa-facebook-f"></i></a>
+              <a><i class="fa-brands fa-instagram"></i></a>
+              <a><i class="fa-brands fa-github"></i></a>
+
+            </div>
+          </nav> 
+          
+        </div>
+       </section>
+    </main>
+    <footer>
+      <footer class="footer p-10 bg-base-200 text-base-content">
+        <aside>
+          <h3>get in touch</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque nemo reiciendis quo similique minima aperiam.</p>
+          <div class="flex justify-items-center gap-4">
+            <div><i class="fa-regular fa-envelope"></i></div>
+            <div><h3>hockeys@support.com</h3></div>
+          </div>
+          <div class="flex justify-items-center gap-4">
+            <div><i class="fa-solid fa-phone"></i></div>
+            <div><h3>(+62) 123-321-543</h3></div>
+          </div>
+        </aside> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a >leadership</a>
+          <a >career</a>
+          <a >news&article</a>
+          <a >leadership</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Support</header> 
+          <a >Help center</a>
+          <a >FAQ</a>
+          <a >Ticket support</a>
+          <a >Contact us</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Services</header> 
+          <a >academy</a>
+          <a >group lessons</a>
+          <a >Private lessons</a>
+          <a >hockeys for kids</a>
+          <a >hockeys for adults </a>
+        </nav>
+      </footer>
+    </footer>
+</body>
+</html>
